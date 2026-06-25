@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx
-  namespace: ak
+  name: nginxdemos/hello
+  namespace: archana
   annotations:
     kubernetes.io/change-cause: "image tag updating to caddynline-perl for nginx"
 spec:
